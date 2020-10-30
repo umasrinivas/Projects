@@ -182,11 +182,6 @@ bing <- get_sentiments("bing")
 df2 <- df %>% inner_join(bing)
 df2 <- df2[-1,]
 
-wordcloud2(df2)
-```
-
-```
-## Error in file(con, "rb"): cannot open the connection
 ```
 
 
